@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+pro:3000,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro, sans-serif";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background : linear-gradient(to right, blue , pink);
+}
+
+.container {
+  width: 100%;
+  margin: 1em auto;
+  background-color: aqua;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+h2 {
+  background-color: antiquewhite;
+  padding-top: 30px;
+  background : linear-gradient(to right, blue , pink);
+  color: white;
+  text-align: center;
+}
